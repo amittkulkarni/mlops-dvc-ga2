@@ -7,7 +7,7 @@ import pickle
 import os
 
 def main():
-    data = pd.read_csv('iris.csv')
+    data = pd.read_csv('data/iris.csv')
   
   # Prepare features and target
     X = data[['sepal_length', 'sepal_width', 'petal_length', 'petal_width']]
